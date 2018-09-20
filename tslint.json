@@ -9,11 +9,15 @@
     ]
   },
   "rules": {
+    "curly": [true, "ignore-same-line"],
     "quotemark": [true, "single"],
     "indent": [true, "spaces", 2],
     "interface-name": false,
-    "ordered-imports": false,
+    "ordered-imports": true,
     "object-literal-sort-keys": false,
-    "no-consecutive-blank-lines": false
+    "no-consecutive-blank-lines": false,
+    "member-access": [true, "no-public"],
+    "triple-equals": [true, "allow-null-check"],
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}]
   }
 }
